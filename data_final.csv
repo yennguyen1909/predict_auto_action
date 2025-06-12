@@ -1,0 +1,269 @@
+action,frequency,type_condition,content_condition,composite_conditions,type_action
+distributorCfmDeliver,2032499,['Existence check'],['Resource/Capacity conditions'],,Integration
+assignCodPicking,1444438,['Existence check'],['Business rule conditions'],,Integration
+privateNotePackage,1430543,['Existence check'],['Business rule conditions'],,Transformation
+putPackages2Bag,838847,['Existence check'],['State/status conditions'],,Transformation
+PickupBill,812609,['Existence check'],['Resource/Capacity conditions'],,Integration
+confirmTmpPickedPackageStatus,811439,['Data integrity'],['State/status conditions'],,Transformation
+updateDeliverWorkshiftByCod,724587,"['Timing conditions', 'Data integrity']",['Business rule conditions'],AND,Transformation
+assignBagWithIdentifyBag,723186,['Existence check'],['State/status conditions'],,Integration
+verifySessionPackage,689592,['Existence check'],['State/status conditions'],,Integration
+verifySessionBags,686533,"['Existence check', 'Data range']",['State/status conditions'],,Integration
+smartScaleScanningPackage,682191,"['Data integrity', 'Data format', 'Data range', 'Existence check']",['State/status conditions'],,Integration
+TransferToBothBill,623364,['Existence check'],['Business rule conditions'],,Transformation
+cfmTransit,612373,"['Existence check', 'Data integrity']",['State/status conditions'],,Integration
+updatePickedByCod,541249,['Data integrity'],['State/status conditions'],,Transformation
+PickupCrossProvinceBill,499609,"['Existence check', 'Data integrity']",['State/status conditions'],,Integration
+confirmTmpDeliveredPackageStatus,340580,['Data integrity'],['State/status conditions'],,Transformation
+ReturnBill,311508,['Existence check'],['Business rule conditions'],,Integration
+RefundBill,304210,['Existence check'],['Business rule conditions'],,Integration
+confirmTmpReturnedPackageStatus,283508,['Data integrity'],['State/status conditions'],,Transformation
+updateReturnedByCod,268049,['State/status conditions'],['Business rule conditions'],,Transformation
+updateDelayDeliveringByCod,238530,['State/status conditions'],['Business rule conditions'],,Transformation
+changePackageStatus,227671,['Existence check'],"['State/status conditions', 'Business rule conditions']",,Integration
+distributorCfmReturning,225845,['Existence check'],['Authentication/Authorization conditions'],,Integration
+printfPackage,200957,['Existence check'],['Resource/Capacity conditions'],,Integration
+updateDelayPickingByCod,196478,['Data integrity'],['State/status conditions'],,Transformation
+importStationByDistributer,148782,['Existence check'],['State/status conditions'],,Integration
+putInBox,133658,['Existence check'],['State/status conditions'],,Transformation
+changeCodForPackagesInCart,121545,['Existence check'],['Resource/Capacity conditions'],,Transformation
+cfmImpPkgFrPONew,116513,['Data integrity'],['State/status conditions'],,Transformation
+saveIsfrageImages,99357,['Data integrity'],['State/status conditions'],,Integration
+editPackage,95427,['Existence check'],['Business rule conditions'],,Transformation
+approvedDeliveryDate,91084,"['Data integrity', 'Data format']","['Timing conditions', 'Business rule conditions']",,Integration
+cfmImportV4JobQ,83520,['Existence check'],['State/status conditions'],,Integration
+TransferToBothAcceptBill,79015,['Existence check'],['Business rule conditions'],,Transformation
+changeCurStationBagSurplus,77585,['Data integrity'],['Business rule conditions'],,Transformation
+takeReturningPackages,77071,['Existence check'],['State/status conditions'],,Integration
+updateDeliverCod,72915,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+takeDeliveringPackages,70258,['Existence check'],['Resource/Capacity conditions'],,Integration
+updateTmpPickingStatus,67047,['Existence check'],['State/status conditions'],,Integration
+ScanPackageToBag,66768,['Existence check'],['State/status conditions'],,Integration
+delayPickPackageReason,64957,['Existence check'],['Business rule conditions'],,Transformation
+scanBox,62809,['Existence check'],"['State/status conditions', 'Resource/Capacity conditions']",,Integration
+autoReassignDateDeliver,58887,['Timing conditions'],['Business rule conditions'],,Transformation
+confirmExportBox,56289,"['Existence check', 'Data integrity']",['Timing conditions'],,Integration
+changeAttributeForSurplus,50070,['Existence check'],['Resource/Capacity conditions'],,Integration
+updateDeliveredCompletelyByCod,44499,['State/status conditions'],['Business rule conditions'],,Transformation
+Refund_payment_qrBill,44172,"['Existence check', 'Data integrity']",['State/status conditions'],,Integration
+updateNotDeliveredByCod,41073,['State/status conditions'],['Business rule conditions'],,Transformation
+feedbackReDelivery,40798,"['Existence check', 'Timing conditions']",['Business rule conditions'],,Integration
+updateDeliverWorkShiftPackage,39590,"['Data integrity', 'Data format']",['Timing conditions'],,Transformation
+TakeAPhotoReturnRequest,37767,['Existence check'],"['Resource/Capacity conditions', 'Authentication/Authorization conditions']",AND,Integration
+NVBCTakeAPhotoDelivery,32746,['Existence check'],"['Resource/Capacity conditions', 'Authentication/Authorization conditions']",AND,Integration
+changePickCartByInstantDistribution,31828,['Existence check'],['Business rule conditions'],,Integration
+updateTmpReturningStatus,29892,['Data integrity'],['State/status conditions'],,Transformation
+scanPackageCreateBagB2C,28710,['Existence check'],['State/status conditions'],,Transformation
+confirmTmpDelayReturningPackageStatus,27934,['Data integrity'],['State/status conditions'],,Transformation
+putPackages2TmpBag,27924,['Existence check'],['Resource/Capacity conditions'],,Integration
+confirmTmpPickedPackageStatusFromPO,26472,['Existence check'],['State/status conditions'],,Integration
+updateDelayReturningByCod,23289,['Data integrity'],"['Timing conditions', 'Business rule conditions']",,Transformation
+updateTfrSortingByVerifySessionBags,22496,['Data integrity'],['State/status conditions'],,Transformation
+cfmDonePrepaymnet,22262,['Existence check'],['Business rule conditions'],,Integration
+cancelPickCodByInstantDistribution,22215,['State/status conditions'],['Business rule conditions'],,Logic
+confirmIssueHandovers,20399,['Existence check'],['State/status conditions'],,Integration
+checkPackageSealScanned,20112,"['Data integrity', 'Existence check', 'Data format']",['Business rule conditions'],AND,Integration
+saveRealImportStation,18618,"['Existence check', 'Data integrity']",['State/status conditions'],,Integration
+changeCart,18518,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+saveSealForSpecialPackage,15658,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+changeCod,15637,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+PrepaymentBill,15113,"['Data format', 'Existence check']",['Business rule conditions'],,Integration
+ArrivePickingPoint,14807,['Existence check'],['State/status conditions'],,Integration
+NVBCConfirmImageWorkshift,14729,['Existence check'],"['Resource/Capacity conditions', 'Authentication/Authorization conditions']",AND,Integration
+ImportPkgCheckIn,13267,['Existence check'],['State/status conditions'],,Integration
+PkBusCheckinPackage,12418,['Existence check'],['State/status conditions'],,Integration
+confirmPackageHandover,12129,['Data integrity'],['State/status conditions'],,Transformation
+changeAlias,11879,"['Data format', 'Data integrity']",['Business rule conditions'],AND,Transformation
+ArriveDeliveringPoint,11753,['State/status conditions'],['Business rule conditions'],,Integration
+delayReturnPackageReason,11238,['Existence check'],['Business rule conditions'],,Integration
+changeTrfSorting,10073,['Data integrity'],['State/status conditions'],,Transformation
+takeOutPackages2Bag,9908,['Existence check'],['Resource/Capacity conditions'],,Integration
+changeDeliverCartCodTakeover,9360,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+changeCustomerFirstAddress,9258,"['Data integrity', 'Data format']",['Business rule conditions'],,Transformation
+updateTmpDeliveringStatus,8549,['Existence check'],['State/status conditions'],,Integration
+changeDelieverCartId,8405,['Existence check'],['Resource/Capacity conditions'],,Integration
+updateReinforcedPackages,8202,['Existence check'],"['Business rule conditions', 'State/status conditions']",,Integration
+csFeedbackUrgeReturnPackage,8196,['Existence check'],['Business rule conditions'],,Integration
+confirmImportPackageApart,8128,['Existence check'],['Resource/Capacity conditions'],,Integration
+changeTransferStationByChangeCart,7990,['Existence check'],['Business rule conditions'],,Transformation
+confirmImportBox,7544,"['Existence check', 'Data integrity']",['Timing conditions'],,Integration
+importDestinationBox,7392,['Existence check'],['Resource/Capacity conditions'],,Integration
+RescanCheckinPackage,7242,['Existence check'],['State/status conditions'],,Integration
+Prepayment_qrBill,7149,['Existence check'],['Business rule conditions'],,Integration
+delayDeliverPackageReason,7068,['Timing conditions'],['Business rule conditions'],,Integration
+verifyStationSessionPackageOfBagExtra,6652,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+ChangePackageSize,6532,"['Data integrity', 'Data format', 'Data range', 'Existence check']",['State/status conditions'],,Transformation
+changePickedCod,6250,['Existence check'],['Resource/Capacity conditions'],,Integration
+changeCustomerLastAddress,6190,['Data integrity'],['State/status conditions'],,Transformation
+cfmTransitPickLog,6147,"['Existence check', 'Timing conditions']",['State/status conditions'],,Integration
+checkPackageBBS,5899,"['Existence check', 'Data range']",['State/status conditions'],,Integration
+changeStationByChangeCart,5868,['Existence check'],['Resource/Capacity conditions'],,Integration
+reassignDeliverCart,5735,['Existence check'],['Business rule conditions'],,Transformation
+updateDeliverCartByChangeWorkshift,5718,['Existence check'],['Resource/Capacity conditions'],,Integration
+changeAliasPackagePickUp,5718,['Data integrity'],['State/status conditions'],,Transformation
+updatePickWorkShiftPackage,5562,"['Data integrity', 'Data format']",['Timing conditions'],,Transformation
+ChangeDeliverCodByConfirmDeliveringByOperator,5544,['Existence check'],['Resource/Capacity conditions'],,Integration
+privateNoteIssueRefund,5499,['Existence check'],['Authentication/Authorization conditions'],,Transformation
+changeTransferStation,5302,['Existence check'],['Business rule conditions'],,Transformation
+feedbackCancelPackage,5236,['Existence check'],"['State/status conditions', 'Business rule conditions']",,Integration
+ManualInput,5027,"['Data integrity', 'Data format']",['Resource/Capacity conditions'],,Integration
+changePickCartByOperator,4956,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+reassignPickCart,4845,['Existence check'],['Business rule conditions'],,Transformation
+confirmBigSizeQuantity,4646,"['Data range', 'Existence check']",['State/status conditions'],,Integration
+printPackageBBS,4474,"['Data range', 'Existence check']",['State/status conditions'],,Integration
+changeCodForReturningPackagesInCart,4444,['Existence check'],['Resource/Capacity conditions'],,Transformation
+confirmChangeAddress,4344,['Existence check'],['Business rule conditions'],,Integration
+putPackageIntoRc,3962,['Existence check'],['Resource/Capacity conditions'],,Integration
+rejectDeliveryDate,3716,['Data integrity'],"['Timing conditions', 'State/status conditions']",,Transformation
+putPackages2PPBag,3702,['Existence check'],"['Timing conditions', 'Resource/Capacity conditions']",,Integration
+codImportV2,3641,['Data integrity'],['State/status conditions'],,Transformation
+updatePickCodByDelay,3617,['Existence check'],['Resource/Capacity conditions'],,Transformation
+requestHandOverPackages,3369,['Existence check'],['State/status conditions'],,Integration
+updatePartDeliveredByCod,3192,['Existence check'],['State/status conditions'],,Integration
+NVBC_CONFIRM_XTEAM_REPORT_CUSTOMER,3032,['Existence check'],['Authentication/Authorization conditions'],,Integration
+confirmVerifyPackages,2995,['State/status conditions'],['Business rule conditions'],,Logic
+codConfirmWillPickup,2991,['Existence check'],['Authentication/Authorization conditions'],,Integration
+toPickCodByInstantDistribution,2979,['Existence check'],['State/status conditions'],,Transformation
+updateStationReturnCart,2777,['Existence check'],['Resource/Capacity conditions'],,Integration
+updateReturnCart,2777,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+confirmBbsImportStationHOMinutes,2685,['Existence check'],['Resource/Capacity conditions'],,Integration
+DteamTakeAPhotoDeliver,2404,['Data integrity'],['State/status conditions'],,Integration
+ArriveReturningPoint,2388,['Existence check'],['State/status conditions'],,Integration
+takePackagesToOutOfLocker,2338,['Existence check'],['Resource/Capacity conditions'],,Integration
+putPackagesIntoCell,2333,"['Existence check', 'Resource/Capacity conditions']",['State/status conditions'],,Integration
+updateNotPickedByCod,2220,['Data integrity'],['State/status conditions'],,Transformation
+openPutToBag,2202,['Existence check'],"['State/status conditions', 'Business rule conditions']",,Logic
+TakeAPhotoSmartLocker,2109,['Existence check'],"['Resource/Capacity conditions', 'Authentication/Authorization conditions']",AND,Integration
+cdbsod,2011,['Existence check'],['State/status conditions'],,Transformation
+TakeAPhotoReturn,2001,['Data integrity'],['State/status conditions'],,Integration
+Refund_paymentBill,1852,['Existence check'],['Business rule conditions'],,Integration
+changeCurStation,1838,['Data integrity'],['Business rule conditions'],,Transformation
+confirmPackageReReturn,1732,['State/status conditions'],['Business rule conditions'],,Logic
+delayByOperatorPostOffice,1690,"['Existence check', 'Data integrity']",['State/status conditions'],,Integration
+csCancelPackage,1672,['Existence check'],['Business rule conditions'],,Integration
+changePickCodAction,1656,['Existence check'],['Resource/Capacity conditions'],,Transformation
+changePickCod,1656,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+sendSMSByUser,1641,"['Data integrity', 'Data format', 'Existence check']",['Business rule conditions'],,Integration
+TransferToDeliverAcceptBill,1523,['Existence check'],['Resource/Capacity conditions'],,Integration
+TakePhotoReturningValid,1294,"['Data format', 'Data integrity']",['Resource/Capacity conditions'],,Integration
+confirmExpressImportStationHOMinutes,1247,['Existence check'],['Resource/Capacity conditions'],,Integration
+TakeAPhotoCheckBox,1232,['Data integrity'],['State/status conditions'],,Integration
+cancelPackage,1210,['Existence check'],['State/status conditions'],,Transformation
+TakeAPhotoCheckBagDestStation,1143,['Data integrity'],['State/status conditions'],,Integration
+changeDeliverCod,1068,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+PkBusReportMissingPackage,1025,['Existence check'],['Resource/Capacity conditions'],,Integration
+TakeAPhotoDeliveringTiktokPackage,1020,['Existence check'],"['Business rule conditions', 'Resource/Capacity conditions', 'Authentication/Authorization conditions']",AND,Integration
+TakeAPhotoWeightChange,973,['Data integrity'],['State/status conditions'],,Integration
+changeReturnAddressFeedback,935,['Existence check'],['Business rule conditions'],,Integration
+updateStatusMissingPackage,929,['Data integrity'],"['State/status conditions', 'Authentication/Authorization conditions']",,Transformation
+updateTmpDeliveredPostOffice,763,['Data integrity'],['State/status conditions'],,Transformation
+confirmTmpDeliveredPostOffice,763,['Data integrity'],['State/status conditions'],,Transformation
+approvedPackage,749,['Data integrity'],['State/status conditions'],,Transformation
+TakeAPhotoDeliveryPhotos,734,"['Data format', 'Data integrity']",['Resource/Capacity conditions'],,Integration
+editPackageUpdateMoney,647,"['Data integrity', 'Data format']",['Business rule conditions'],,Transformation
+updateWeightFromFastBag,646,"['Data integrity', 'Data range']",['State/status conditions'],,Transformation
+TakeAPhotoPicked,605,"['Data format', 'Data integrity']",['Resource/Capacity conditions'],,Integration
+,536,,,,
+changeCurrentStation,535,['Existence check'],['Resource/Capacity conditions'],,Integration
+updateShipMoney,520,"['Data integrity', 'Data range']",['State/status conditions'],,Transformation
+cbsop,457,['Existence check'],"['State/status conditions', 'Business rule conditions']",,Integration
+updatePickCod,446,"['Existence check', 'Data integrity']",['Resource/Capacity conditions'],,Integration
+deletePackage,444,['Existence check'],['State/status conditions'],,Integration
+updateUrgeDeliverPackage,442,['Data integrity'],['State/status conditions'],,Integration
+TakeAPhotoSignatureTiktokPackage,385,['Existence check'],['Business rule conditions'],,Integration
+changePickLastAddress,382,"['Data format', 'Data integrity']",['Authentication/Authorization conditions'],AND,Transformation
+customerSigningDelivery,374,"['Existence check', 'Data integrity']",['State/status conditions'],,Integration
+changePickFirstAddress,362,"['Data integrity', 'Data format', 'Existence check']",['Business rule conditions'],,Transformation
+removeScannedBox,343,['Existence check'],['Resource/Capacity conditions'],,Transformation
+TakeAPhotoConfirmHandOverHvcPackage,319,['Data integrity'],['State/status conditions'],,Integration
+updatePickAddressCart,312,['Data integrity'],['Business rule conditions'],,Transformation
+confirmHandOverPackages,308,['Existence check'],['State/status conditions'],,Integration
+changeDstStation,284,"['Existence check', 'Data integrity']",['Business rule conditions'],AND,Transformation
+updateTmpDeliveredPackageStatuses,258,"['Data integrity', 'Data range']",['State/status conditions'],,Transformation
+changeAliasPackage,254,"['Data integrity', 'Data format']",['Business rule conditions'],,Transformation
+exportBigSizePackages,229,"['Existence check', 'Data integrity']","['State/status conditions', 'Resource/Capacity conditions']",,Integration
+ReportPackageNotInRc,225,['Existence check'],['State/status conditions'],,Integration
+notePackage,196,['Data integrity'],['State/status conditions'],,Integration
+updateReturnDebtMoney,192,"['Existence check', 'Data integrity', 'Data range']",['State/status conditions'],,Transformation
+updateTmpPickedPackageStatuses,184,['Existence check'],['State/status conditions'],,Integration
+cancelExportDeliver,184,['Existence check'],['Business rule conditions'],,Integration
+savePackageNote,184,['Data integrity'],['State/status conditions'],,Integration
+cfmTransitD4h,176,"['Existence check', 'Data integrity']",['Resource/Capacity conditions'],,Integration
+unScanPackageCreateBagB2C,160,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+UpdatePropertyPackage,160,['Data integrity'],['Business rule conditions'],,Transformation
+TakeAPhotoCallLog,156,"['Data format', 'Data integrity']",['Resource/Capacity conditions'],,Integration
+changeTypeFromExpressToBBS,146,['Data integrity'],['Business rule conditions'],,Transformation
+updateWeightFromExpressToBBS,146,"['Data integrity', 'Data format']",['Resource/Capacity conditions'],,Transformation
+updatePickMoney,140,"['Data integrity', 'Data range']",['State/status conditions'],,Transformation
+BlurredBarcode,139,['Data integrity'],['Data format'],,Integration
+updateShipMoneyFromExpressToBBS,138,"['Data range', 'Data format']",['Business rule conditions'],AND,Transformation
+updateSrcStationByTmpPickedPackageStatuses,118,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+updateAddressCart,105,['Data integrity'],['Authentication/Authorization conditions'],,Transformation
+autoAssignPickCart,87,['Existence check'],['Resource/Capacity conditions'],,Integration
+savePickPackageLogQ,79,"['Existence check', 'Timing conditions']",['Resource/Capacity conditions'],AND,Integration
+putOutBox,76,['Existence check'],['Resource/Capacity conditions'],,Integration
+updateWeightPackage,76,"['Data integrity', 'Data format']",['Resource/Capacity conditions'],,Transformation
+updateDeliverTimeSlotByDriver,75,"['Existence check', 'Data format']","['Timing conditions', 'Resource/Capacity conditions']",,Integration
+CustomerComponent::changeAddress,73,"['Data integrity', 'Data format']",['Business rule conditions'],,Transformation
+confirmExpressQuantity,73,['Existence check'],['Business rule conditions'],,Integration
+updateShipMoneyPackage,68,"['Data integrity', 'Data range']",['Business rule conditions'],,Transformation
+confirmTmpNotReturnedPackageStatus,66,['Data integrity'],['State/status conditions'],,Transformation
+changeComingReturnCod,63,['Existence check'],['Resource/Capacity conditions'],,Transformation
+changeComingReturnCodAction,63,['Existence check'],['Business rule conditions'],,Integration
+updateUrgeReturnPackage,63,['Existence check'],['Business rule conditions'],,Integration
+TakePhotoDelayDeliver,61,['Existence check'],['Business rule conditions'],,Integration
+autoAssignDeliverCart,61,['Existence check'],['Resource/Capacity conditions'],,Integration
+assignStationPicking,59,['Existence check'],['Resource/Capacity conditions'],,Integration
+updateNotReturnedByCod,58,['State/status conditions'],['Business rule conditions'],,Transformation
+TakeAPhotoCheckBagReturnStation,49,['Data integrity'],['State/status conditions'],,Integration
+editPackageNotUpdateMoney,48,['State/status conditions'],['Business rule conditions'],,Transformation
+updateChangeAddressFee,47,"['Data format', 'Data range']",['Authentication/Authorization conditions'],AND,Transformation
+customerCommitmentLetter,44,"['Existence check', 'Data integrity']",['State/status conditions'],,Integration
+assignStationDelivering,44,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+revertPackage,42,['Data integrity'],['State/status conditions'],,Transformation
+autoDeleteOrderBoxTemp,41,"['Existence check', 'Data integrity']",['State/status conditions'],,Logic
+notPickedPackageReason,40,['Existence check'],['Business rule conditions'],,Integration
+updateDeliverAddressCart,39,"['Data integrity', 'Data format']",['Resource/Capacity conditions'],,Transformation
+changeCustomerTel,38,"['Data format', 'Data integrity']",['Authentication/Authorization conditions'],AND,Transformation
+changeReturnStation,37,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+changeReturnCart,37,['Existence check'],['Business rule conditions'],,Transformation
+shopRequestChangePickAddress,37,"['Data integrity', 'Data format', 'Existence check']",['Business rule conditions'],,Integration
+changeReturnAddress,37,"['Data integrity', 'Data format', 'Existence check']",['Business rule conditions'],,Transformation
+exportBigSizePickingPackages,28,"['Existence check', 'Data integrity']","['State/status conditions', 'Resource/Capacity conditions']",,Integration
+updateReturnShiftPackage,28,"['Existence check', 'Data format']",['Timing conditions'],,Integration
+removePackagesFromPPBag,28,['Existence check'],"['Timing conditions', 'Resource/Capacity conditions']",,Integration
+editHamletAddressPackage,26,"['Data integrity', 'Data format']",['Business rule conditions'],,Transformation
+changeDeliverCodAction,25,"['Existence check', 'Data integrity', 'Authentication/Authorization conditions']",['State/status conditions'],,Transformation
+changeStation,25,"['Existence check', 'Data integrity']",['Business rule conditions'],AND,Transformation
+feedbackUrgeReturnPackage,24,['Data integrity'],['State/status conditions'],,Integration
+CustomerComponent::changeCustomerTel,20,"['Data integrity', 'Data format']",['Business rule conditions'],,Transformation
+notDeliveredPackageReason,18,['Existence check'],['Business rule conditions'],,Integration
+TakePhotoReturningInvalid,17,['Existence check'],"['Business rule conditions', 'Resource/Capacity conditions', 'Authentication/Authorization conditions']",AND,Integration
+updatePartDeliveredByPostOffice,16,['State/status conditions'],['Business rule conditions'],,Transformation
+updateIsFreeship,15,['Data integrity'],"['State/status conditions', 'Business rule conditions']",,Transformation
+updatePickShiftPackageSentAtPO,14,"['Data integrity', 'Timing conditions']",['State/status conditions'],,Transformation
+TakeAdditionalPhotoAppearancePackageSuccess,14,['Existence check'],['Business rule conditions'],,Integration
+updateWeight,14,"['Data integrity', 'Data range']",['State/status conditions'],,Transformation
+shopSigningHandover,11,"['Existence check', 'Data integrity']",['State/status conditions'],,Integration
+shopRequestChangeCusName,10,"['Data integrity', 'Data format']",['Business rule conditions'],,Integration
+updateToReturningStatus,9,['State/status conditions'],['Business rule conditions'],,Transformation
+shopRequestChangeCusTel,9,"['Data integrity', 'Data format']",['Business rule conditions'],,Transformation
+RequestRedeliverAction,8,['Existence check'],['Business rule conditions'],,Integration
+updatePickWorkshiftByCod,7,['Timing conditions'],['Business rule conditions'],,Transformation
+takeOutOnePackageFromBag,5,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+blockPutToBag,5,['Existence check'],"['State/status conditions', 'Business rule conditions']",,Logic
+updateNotDeliveredByPostOffice,5,['State/status conditions'],['Business rule conditions'],,Transformation
+TakeAdditionalPhotoAppearancePackageFailed,4,['Data integrity'],['State/status conditions'],,Integration
+CODUpdatePickMoney,4,"['Data range', 'Existence check']",['Business rule conditions'],,Transformation
+assignDeliverCodForPackage,4,"['Existence check', 'Data integrity']",['State/status conditions'],,Transformation
+createIssueForDteam,4,"['Existence check', 'Timing conditions']",['Business rule conditions'],,Integration
+TakeAPhotoFullDelivery,4,['Existence check'],"['Resource/Capacity conditions', 'Authentication/Authorization conditions']",AND,Integration
+applyDiscountCoupon,3,['Existence check'],['Business rule conditions'],,Transformation
+changePickAddress,3,"['Data integrity', 'Data format', 'Existence check']",['Business rule conditions'],,Transformation
+updateDelayDeliveringByPostOffice,3,['Data integrity'],['State/status conditions'],,Transformation
+LosePackageByPostOffice,2,"['Existence check', 'Data integrity', 'Timing conditions']",['State/status conditions'],,Integration
+returnPackageAtStation,2,['Existence check'],['Resource/Capacity conditions'],,Integration
+putPackages2QsBag,2,['Existence check'],['Resource/Capacity conditions'],,Integration
+changePackagesTransport,1,"['Data range', 'Data format']",['Business rule conditions'],AND,Transformation
+exportBigSizeReturnPackages,1,['Existence check'],['State/status conditions'],,Integration
+cancelNewPackage,1,['Existence check'],['Business rule conditions'],,Transformation
